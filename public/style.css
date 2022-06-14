@@ -1,0 +1,274 @@
+body {
+    margin: 0px;
+}
+
+/* Navbar Start */
+
+.container-navbar {
+    position: sticky;
+    top: 0;
+}
+
+.row-navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+
+.col-nav-content {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.col-nav-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-nav-content a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+/* Navbar End */
+
+/* Profile start */
+.container-profile {
+    display: flex;
+}
+
+.col-profile {
+    width: 40%;
+}
+
+.col-container-profileall {
+    width: 60%;
+    height: 630px;
+    overflow-y: scroll;
+    background-color: rgb(38 37 37);
+}
+
+.col-profile img {
+    width: 100%;
+    height: 630px;
+}
+
+.row-main {
+    margin: 20%;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 65px;
+}
+
+.fa {
+    padding: 6px 8px;
+    margin: 2px 2px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+}
+
+.fa:hover {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+/* Profile End */
+
+/* My Portfolio Start */
+
+.photo {
+    text-align: center;
+    color: black;
+}
+
+.web {
+    text-align: center;
+    color: black;
+}
+
+.row-myportfolio {
+    padding: 1px 15px;
+    color: white;
+}
+
+.row-photos .myportfolio {
+    width: 100%;
+}
+
+.row-photos {
+    display: flex;
+}
+
+.col-left img {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.col-right img {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.col-left {
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.col-left img:hover {
+    transform: scale(1.03);
+}
+
+.col-right img:hover {
+    transform: scale(1.03);
+}
+
+.col-right {
+    margin: 10px;
+    padding-right: 5px;
+}
+
+/* My Portfolio End */
+
+/* About Start */
+
+.about {
+    padding: 1px 15px;
+    color: white;
+}
+
+.about-info {
+    padding: 1px 20px;
+    margin: 1px 20px;
+    text-align: justify;
+    color: #818181;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* About End */
+
+/* Contact Me Start */
+.contact {
+    padding: 1px 15px;
+    color: white;
+}
+
+.address:before {
+    content: "\f041";
+}
+
+.address {
+
+    font: normal normal normal 30px/1 FontAwesome;
+}
+
+.phone:before {
+    content: "\f095";
+}
+
+.phone {
+    font-size: 30px;
+    font: normal normal normal 30px/1 FontAwesome;
+}
+
+.email:before {
+    content: "\f0e0";
+}
+
+.email {
+
+    font: normal normal normal 26px/1 FontAwesome;
+}
+
+.contact-info {
+    padding: 10px 40px;
+    font-size: 17px;
+    color: #4fadad;
+    letter-spacing: 1px;
+}
+
+/* Contact Me End */
+
+/* Footer Start */
+.row-footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* Footer End */
+
+/* Rating Start */
+
+.rating {
+    padding: 10px 40px;
+}
+
+.myskill {
+    color: white;
+    font-size: 20px;
+}
+
+.photography1 {
+    background-color: white !important;
+}
+
+.photography2 {
+    color: white !important;
+    background-color: #010101 !important;
+}
+
+.webdesign1 {
+    background-color: white !important;
+}
+
+.webdesign2 {
+    color: white !important;
+    background-color: #010101 !important;
+}
+
+
+.photoshop1 {
+    background-color: white !important;
+}
+
+.photoshop2 {
+    color: white !important;
+    background-color: #010101 !important;
+}
+
+/* Rating End */
+
+/* Send Message start */
+
+.sendmessage {
+    padding: 10px 30px;
+}
+
+.sendmsgbtn:hover {
+background-color: aqua;
+}
+
+.sendmsgbtn {
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    background-color: darkgoldenrod;
+}
+
+
+/* Send Message End */
+
